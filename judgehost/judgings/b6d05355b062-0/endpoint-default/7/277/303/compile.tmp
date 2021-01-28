@@ -1,0 +1,22 @@
+aus.cpp: In function 'int main()':
+aus.cpp:21:21: error: too few arguments to function 'char* fgets(char*, int, FILE*)'
+         fgets(can[0]);
+                     ^
+In file included from aus.cpp:2:
+/usr/include/stdio.h:570:14: note: declared here
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^~~~~
+aus.cpp:23:13: error: 'gets' was not declared in this scope
+             gets(can[i]);
+             ^~~~
+aus.cpp:23:13: note: suggested alternative: 'fgets'
+             gets(can[i]);
+             ^~~~
+             fgets
+aus.cpp:25:16: error: 'gets' was not declared in this scope
+         while (gets(tmp)){
+                ^~~~
+aus.cpp:25:16: note: suggested alternative: 'fgets'
+         while (gets(tmp)){
+                ^~~~
+                fgets

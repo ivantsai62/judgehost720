@@ -1,0 +1,242 @@
+Compiling failed with exitcode 1, compiler output:
+test123.cpp: In function 'int main()':
+test123.cpp:6:6: error: no match for 'operator>>' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int')
+  cin >> 1;
+  ~~~~^~~~
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:120:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(__istream_type& (*__pf)(__istream_type&))
+       ^~~~~~~~
+/usr/include/c++/8/istream:120:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: invalid conversion from 'int' to 'std::basic_istream<char>::__istream_type& (*)(std::basic_istream<char>::__istream_type&)' {aka 'std::basic_istream<char>& (*)(std::basic_istream<char>&)'} [-fpermissive]
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:124:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]' <near match>
+       operator>>(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+/usr/include/c++/8/istream:124:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: invalid conversion from 'int' to 'std::basic_istream<char>::__ios_type& (*)(std::basic_istream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'} [-fpermissive]
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:131:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(ios_base& (*__pf)(ios_base&))
+       ^~~~~~~~
+/usr/include/c++/8/istream:131:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: invalid conversion from 'int' to 'std::ios_base& (*)(std::ios_base&)' [-fpermissive]
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:168:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(bool&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(bool& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:168:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'bool&' to an rvalue of type 'bool'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:172:7: note: candidate: 'std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(short int&) [with _CharT = char; _Traits = std::char_traits<char>]' <near match>
+       operator>>(short& __n);
+       ^~~~~~~~
+/usr/include/c++/8/istream:172:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'short int&' to an rvalue of type 'short int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:175:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(short unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(unsigned short& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:175:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'short unsigned int&' to an rvalue of type 'short unsigned int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:179:7: note: candidate: 'std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]' <near match>
+       operator>>(int& __n);
+       ^~~~~~~~
+/usr/include/c++/8/istream:179:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'int&' to an rvalue of type 'int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:182:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(unsigned int& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:182:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'unsigned int&' to an rvalue of type 'unsigned int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:186:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(long& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:186:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'long int&' to an rvalue of type 'long int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:190:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(unsigned long& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:190:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'long unsigned int&' to an rvalue of type 'long unsigned int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:195:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(long long& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:195:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'long long int&' to an rvalue of type 'long long int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:199:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(unsigned long long& __n)
+       ^~~~~~~~
+/usr/include/c++/8/istream:199:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'long long unsigned int&' to an rvalue of type 'long long unsigned int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:214:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(float&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(float& __f)
+       ^~~~~~~~
+/usr/include/c++/8/istream:214:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'float&' to an rvalue of type 'float'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:218:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(double& __f)
+       ^~~~~~~~
+/usr/include/c++/8/istream:218:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'double&' to an rvalue of type 'double'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:222:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(long double& __f)
+       ^~~~~~~~
+/usr/include/c++/8/istream:222:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: cannot bind non-const lvalue reference of type 'long double&' to an rvalue of type 'long double'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:235:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(void*&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' <near match>
+       operator>>(void*& __p)
+       ^~~~~~~~
+/usr/include/c++/8/istream:235:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: invalid conversion from 'int' to 'void*' [-fpermissive]
+  cin >> 1;
+         ^
+test123.cpp:6:9: error: cannot bind rvalue '(void*)1' to 'void*&'
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:259:7: note: candidate: 'std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]' <near match>
+       operator>>(__streambuf_type* __sb);
+       ^~~~~~~~
+/usr/include/c++/8/istream:259:7: note:   conversion of argument 1 would be ill-formed:
+test123.cpp:6:9: error: invalid conversion from 'int' to 'std::basic_istream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'} [-fpermissive]
+  cin >> 1;
+         ^
+test123.cpp:6:6: note: candidate: 'operator>>(int, int)' <built-in>
+  cin >> 1;
+  ~~~~^~~~
+test123.cpp:6:6: note:   no known conversion for argument 1 from 'std::istream' {aka 'std::basic_istream<char>'} to 'int'
+In file included from /usr/include/c++/8/string:53,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from test123.cpp:1:
+/usr/include/c++/8/bits/basic_string.tcc:1465:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.tcc:1465:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/istream:991,
+                 from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/bits/istream.tcc:931:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)'
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+     ^~~~~~~~
+/usr/include/c++/8/bits/istream.tcc:931:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   deduced conflicting types for parameter '_CharT' ('char' and 'int')
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:756:5: note: candidate: 'template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)'
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+     ^~~~~~~~
+/usr/include/c++/8/istream:756:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   cannot convert '1' (type 'int') to type 'unsigned char&'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:761:5: note: candidate: 'template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)'
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+     ^~~~~~~~
+/usr/include/c++/8/istream:761:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   cannot convert '1' (type 'int') to type 'signed char&'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/istream:991,
+                 from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/bits/istream.tcc:963:5: note: candidate: 'template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)'
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/istream.tcc:963:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   mismatched types '_CharT2*' and 'int'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:803:5: note: candidate: 'template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)'
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/istream:803:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   cannot convert '1' (type 'int') to type 'unsigned char*'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:808:5: note: candidate: 'template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)'
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/istream:808:5: note:   template argument deduction/substitution failed:
+test123.cpp:6:9: note:   cannot convert '1' (type 'int') to type 'signed char*'
+  cin >> 1;
+         ^
+In file included from /usr/include/c++/8/iostream:40,
+                 from test123.cpp:1:
+/usr/include/c++/8/istream:980:5: note: candidate: 'template<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&)'
+     operator>>(_Istream&& __is, _Tp&& __x)
+     ^~~~~~~~
+/usr/include/c++/8/istream:980:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/istream: In substitution of 'template<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&) [with _Istream = std::basic_istream<char>&; _Tp = int]':
+test123.cpp:6:9:   required from here
+/usr/include/c++/8/istream:980:5: error: no type named 'type' in 'struct std::enable_if<false, std::basic_istream<char>&>'

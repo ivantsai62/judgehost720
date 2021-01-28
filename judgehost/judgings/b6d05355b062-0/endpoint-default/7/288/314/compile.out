@@ -1,0 +1,9 @@
+Compiling failed with exitcode 1, compiler output:
+fre.cpp: In function 'int main()':
+fre.cpp:14:9: error: 'gets' was not declared in this scope
+  while (gets(s)) {
+         ^~~~
+fre.cpp:14:9: note: suggested alternative: 'fgets'
+  while (gets(s)) {
+         ^~~~
+         fgets

@@ -1,0 +1,382 @@
+24
+
+3
+John Doe
+Jane Smith
+Sirhan Sirhan
+1 2 3
+2 1 3
+2 3 1
+1 2 3
+3 1 2
+
+2
+William Howard Taft
+James A. Garfield
+1 2
+2 1
+1 2
+1 2
+
+2
+Alben Barkley
+Millard Fillmore
+1 2
+2 1
+2 1
+1 2
+
+2
+Grover Cleveland
+Andrew Johnson
+1 2
+1 2
+2 1
+2 1
+1 2
+2 1
+1 2
+1 2
+2 1
+
+3
+Rutherford B. Hayes
+George Clinton
+Abraham Lincoln
+2 1 3
+2 1 3
+1 2 3
+2 3 1
+1 2 3
+
+3
+John Tyler
+Woodrow Wilson
+Calvin Coolidge
+3 2 1
+2 1 3
+3 2 1
+1 2 3
+2 3 1
+2 3 1
+2 1 3
+
+3
+Martin Van Buren
+James Buchanan
+Millard Fillmore
+3 1 2
+1 3 2
+1 3 2
+2 3 1
+2 1 3
+
+3
+Thomas Jefferson
+James K. Polk
+Woodrow Wilson
+3 1 2
+2 3 1
+3 2 1
+2 1 3
+
+3
+Ronald Reagan
+Henry Wilson
+Charlie Parker
+1 3 2
+1 2 3
+1 3 2
+1 2 3
+
+4
+Hubert Humphrey
+Barack Obama
+Charles Fairbanks
+Andrew Johnson
+3 1 4 2
+1 3 4 2
+4 2 3 1
+2 1 3 4
+3 2 1 4
+1 4 2 3
+1 4 2 3
+
+4
+Nelson Rockefeller
+Jimmy Carter
+George Bush
+Herbert Hoover
+4 1 2 3
+3 2 1 4
+2 3 4 1
+
+4
+John Adams
+William Howard Taft
+Jimmy Carter
+Abraham Lincoln
+1 2 4 3
+4 1 2 3
+2 4 3 1
+3 1 4 2
+3 2 4 1
+4 1 2 3
+2 4 3 1
+
+5
+Harry S. Truman
+Franklin D. Roosevelt
+Henry Wilson
+Ronald Reagan
+John Quincy Adams
+4 1 5 3 2
+5 1 4 3 2
+1 2 4 3 5
+
+5
+John Adams
+Hubert Humphrey
+Franklin Pierce
+James Buchanan
+William McKinley
+5 1 2 4 3
+1 3 4 2 5
+3 1 5 2 4
+3 1 4 5 2
+5 1 3 4 2
+
+5
+Barack Obama
+Warren G. Harding
+Harry S. Truman
+Benjamin Harrison
+George Bush
+4 2 1 5 3
+3 5 1 4 2
+2 3 1 5 4
+5 2 1 4 3
+5 1 4 2 3
+2 4 5 3 1
+1 5 3 4 2
+4 5 1 2 3
+2 3 1 4 5
+
+4
+James Madison
+Hubert Humphrey
+William Henry Harrison
+Grover Cleveland
+4 1 3 2
+3 1 4 2
+4 2 1 3
+1 4 3 2
+2 3 4 1
+3 2 4 1
+1 2 4 3
+1 4 2 3
+3 1 4 2
+
+4
+John Adams
+Ronald Reagan
+George Clinton
+Ulysses S. Grant
+2 4 1 3
+3 2 4 1
+1 2 4 3
+2 3 1 4
+
+5
+Warren G. Harding
+Nelson Rockefeller
+Calvin Coolidge
+Thomas Jefferson
+Jimmy Carter
+1 2 5 3 4
+4 2 5 3 1
+5 4 1 2 3
+3 2 1 5 4
+4 5 2 3 1
+3 1 4 5 2
+3 1 2 5 4
+
+4
+John Quincy Adams
+Woodrow Wilson
+Rutherford B. Hayes
+Abraham Lincoln
+2 4 3 1
+2 3 1 4
+1 4 2 3
+3 4 2 1
+4 2 3 1
+3 4 2 1
+3 2 1 4
+3 1 2 4
+
+4
+Lyndon B. Johnson
+George Washington
+Gerald Ford
+Henry A. Wallace
+1 2 3 4
+1 3 2 4
+3 1 4 2
+4 3 1 2
+4 3 2 1
+4 3 2 1
+4 1 3 2
+3 4 2 1
+3 2 4 1
+
+7
+Richard Nixon
+James Buchanan
+Andrew Jackson
+John F. Kennedy
+Calvin Coolidge
+Benjamin Harrison
+Bill Clinton
+2 4 1 5 7 6 3
+5 6 3 1 4 2 7
+1 7 3 5 4 6 2
+7 4 6 2 3 5 1
+1 3 2 6 7 4 5
+3 6 1 4 5 2 7
+2 5 3 7 4 6 1
+7 1 5 2 3 6 4
+2 5 1 3 7 4 6
+4 7 2 6 1 3 5
+1 3 2 7 6 4 5
+7 4 5 6 3 1 2
+3 5 2 6 4 7 1
+3 6 5 4 2 7 1
+5 2 6 7 1 4 3
+1 4 6 3 2 5 7
+5 2 3 4 6 7 1
+1 6 5 3 4 7 2
+5 1 2 3 6 4 7
+1 7 5 4 6 2 3
+1 6 3 5 4 7 2
+4 5 3 1 2 6 7
+6 1 7 2 3 5 4
+7 3 4 1 2 5 6
+2 7 4 5 1 3 6
+4 1 6 2 7 5 3
+5 7 2 1 3 4 6
+2 7 5 6 4 3 1
+6 3 5 1 7 4 2
+3 1 5 6 2 7 4
+5 4 1 6 7 2 3
+1 7 5 4 2 6 3
+6 4 5 2 1 3 7
+4 2 1 6 7 5 3
+6 7 1 2 3 5 4
+2 3 5 7 6 4 1
+6 7 1 3 4 5 2
+1 6 7 2 3 4 5
+5 6 1 2 7 4 3
+2 1 5 4 7 3 6
+2 1 5 6 3 7 4
+6 3 1 4 7 5 2
+
+9
+Hubert Humphrey
+Barack Obama
+Charles Fairbanks
+Andrew Johnson
+Ronald Reagan
+Henry Wilson
+Jimmy Carter
+Millard Fillmore
+Alben Barkley
+8 7 3 4 5 2 9 6 1
+9 5 8 7 4 6 3 2 1
+1 7 8 4 5 3 2 9 6
+9 3 6 7 2 8 4 1 5
+7 6 3 8 2 9 5 4 1
+1 2 6 4 9 3 7 5 8
+7 9 4 2 8 5 3 1 6
+8 9 7 2 6 5 3 1 4
+9 3 6 1 7 4 8 2 5
+1 6 2 8 9 4 3 7 5
+2 3 5 8 7 1 4 9 6
+8 7 1 6 9 2 3 4 5
+3 6 2 8 9 5 1 4 7
+2 3 6 8 1 4 9 5 7
+
+14
+William Howard Taft
+James A. Garfield
+Gerald Ford
+Alben Barkley
+Millard Fillmore
+None
+Warren G. Harding
+Franklin D. Roosevelt
+George Washington
+Rutherford B. Hayes
+George Clinton
+Abraham Lincoln
+Grover Cleveland
+Andrew Johnson
+7 12 3 11 8 6 10 9 13 14 2 5 1 4
+1 3 13 11 5 10 14 4 7 6 12 9 2 8
+7 6 14 12 1 2 4 10 9 5 3 13 11 8
+6 4 10 2 7 9 11 8 3 1 13 5 14 12
+7 13 14 2 4 8 11 5 9 10 12 1 3 6
+4 8 3 2 5 12 14 10 1 9 6 11 13 7
+2 11 7 9 12 8 3 4 6 5 1 14 13 10
+7 14 8 10 1 6 13 12 5 4 3 11 2 9
+8 9 1 13 6 4 2 3 14 5 11 10 7 12
+
+19
+John Adams
+Ronald Reagan
+George Clinton
+Ulysses S. Grant
+Warren G. Harding
+Nelson Rockefeller
+Calvin Coolidge
+Thomas Jefferson
+Jimmy Carter
+John Quincy Adams
+Woodrow Wilson
+Rutherford B. Hayes
+Abraham Lincoln
+Lyndon B. Johnson
+George Washington
+Gerald Ford
+Henry A. Wallace
+Barack Obama
+Richard Nixon
+9 12 16 7 18 14 17 2 19 13 6 1 4 15 5 3 8 11 10
+17 5 3 15 4 12 6 13 10 16 7 2 1 8 14 18 19 9 11
+4 2 5 6 13 15 10 19 12 17 1 16 3 11 9 14 8 18 7
+9 7 17 2 13 5 15 8 18 10 4 11 3 14 16 6 12 1 19
+4 19 16 1 3 8 5 9 11 2 6 10 18 15 7 14 13 12 17
+14 4 1 16 18 3 10 15 13 8 6 12 2 5 7 9 11 17 19
+1 8 11 17 15 3 7 14 4 12 13 5 18 10 6 19 2 9 16
+18 10 2 5 12 14 16 1 4 17 15 8 19 7 11 9 13 6 3
+14 6 5 11 15 8 3 19 17 4 13 9 7 18 1 12 2 16 10
+19 12 4 10 7 17 16 14 5 8 18 1 9 6 3 2 15 11 13
+2 19 6 15 16 18 3 11 14 12 8 10 4 13 9 5 1 17 7
+9 17 10 7 6 1 18 5 11 4 16 14 12 3 13 19 15 8 2
+8 1 12 9 14 15 10 18 5 2 4 3 6 16 11 19 7 17 13
+4 5 19 8 1 15 12 6 18 11 14 7 17 16 2 3 9 13 10
+4 11 5 6 1 15 17 13 12 2 8 14 18 7 16 3 19 9 10
+15 19 9 17 13 11 14 4 10 6 5 2 7 16 3 1 18 8 12
+7 8 19 1 9 14 17 18 16 11 5 6 13 3 15 2 12 10 4
+11 14 19 1 15 3 12 16 2 7 9 18 17 10 13 6 4 8 5
+12 14 1 10 19 7 15 16 2 8 17 11 5 6 13 4 3 18 9
+2 3 8 4 9 13 10 7 16 12 19 18 15 1 5 6 14 11 17
+18 14 12 19 6 9 1 5 2 11 3 13 17 15 4 16 10 7 8
+12 13 2 3 14 10 11 7 8 4 5 6 17 18 15 1 9 19 16
+1 10 12 2 13 16 11 3 5 18 19 4 15 17 14 8 9 7 6
+7 10 1 9 11 6 4 17 12 2 3 14 16 19 15 18 13 8 5
+5 10 15 3 2 8 7 6 17 16 13 11 19 1 18 4 14 9 12
+10 13 18 5 11 6 15 14 12 1 16 4 8 17 2 7 19 9 3
+10 1 17 15 2 8 16 12 6 19 11 9 18 3 7 5 4 13 14
+6 14 2 4 12 17 15 1 10 8 18 13 9 5 16 3 19 7 11
+16 3 8 19 6 9 14 2 17 10 15 18 7 13 5 1 11 4 12

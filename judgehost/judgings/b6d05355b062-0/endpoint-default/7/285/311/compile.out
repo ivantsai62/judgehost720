@@ -1,0 +1,25 @@
+fre.cpp: In function 'int main()':
+fre.cpp:16:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+    n[c]++;
+       ^
+fre.cpp:20:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+     if(n[d] > ans)
+           ^
+fre.cpp:21:15: warning: array subscript has type 'char' [-Wchar-subscripts]
+      ans = n[d];
+               ^
+fre.cpp:23:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+     if(n[d] > ans)
+           ^
+fre.cpp:24:15: warning: array subscript has type 'char' [-Wchar-subscripts]
+      ans = n[d];
+               ^
+fre.cpp:26:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+     if(n[d] == ans)
+           ^
+fre.cpp:29:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+     if(n[d] == ans)
+           ^
+fre.cpp:11:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, n[128], ans;
+      ^

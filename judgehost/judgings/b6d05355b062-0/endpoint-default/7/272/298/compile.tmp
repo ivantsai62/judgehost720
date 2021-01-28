@@ -1,0 +1,7 @@
+deli.cpp: In function 'int main()':
+deli.cpp:26:34: warning: 'char* strncpy(char*, const char*, size_t)' specified bound depends on the length of the source argument [-Wstringop-overflow=]
+                           strncpy(output, words, length-1);
+                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+deli.cpp:23:38: note: length computed here
+                   int length = strlen(words);
+                                ~~~~~~^~~~~~~

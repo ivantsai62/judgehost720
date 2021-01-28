@@ -1,0 +1,9 @@
+Compiling failed with exitcode 1, compiler output:
+aus.cpp: In function 'int main()':
+aus.cpp:21:9: error: 'gets' was not declared in this scope
+         gets(can[0]);
+         ^~~~
+aus.cpp:21:9: note: suggested alternative: 'fgets'
+         gets(can[0]);
+         ^~~~
+         fgets

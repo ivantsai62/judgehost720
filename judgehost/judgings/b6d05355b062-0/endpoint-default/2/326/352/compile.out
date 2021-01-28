@@ -1,0 +1,8 @@
+Compiling failed with exitcode 1, compiler output:
+t.cpp:3:20: error: expected ';' before 'int'
+ using namespace std
+                    ^
+                    ;
+t.cpp:5:1:
+ int main(){
+ ~~~                 

@@ -1,0 +1,5 @@
+Compiling failed with exitcode 1, compiler output:
+main.cpp: In function 'int main()':
+main.cpp:9:8: error: 'i12' was not declared in this scope
+     if(i12)
+        ^~~

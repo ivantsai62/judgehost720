@@ -1,0 +1,9 @@
+test.cpp: In function 'bool ordered()':
+test.cpp:10:11: warning: array subscript -1 is below array bounds of 'int [10]' [-Warray-bounds]
+  int *p = &a[-1];
+           ^~~~~~
+test.cpp:10:11: warning: array subscript -1 is below array bounds of 'int [10]' [-Warray-bounds]
+test.cpp:10:11: warning: array subscript -1 is below array bounds of 'int [10]' [-Warray-bounds]
+  int *p = &a[-1];
+           ^~~~~~
+test.cpp:10:11: warning: array subscript -1 is below array bounds of 'int [10]' [-Warray-bounds]

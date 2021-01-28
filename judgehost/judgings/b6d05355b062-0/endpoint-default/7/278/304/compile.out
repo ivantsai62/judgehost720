@@ -1,0 +1,7 @@
+aus.cpp: In function 'int main()':
+aus.cpp:34:39: warning: variable 'minIndex' set but not used [-Wunused-but-set-variable]
+   int cases,k,choice,max,maxIndex,min,minIndex;
+                                       ^~~~~~~~
+aus.cpp:34:26: warning: 'maxIndex' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int cases,k,choice,max,maxIndex,min,minIndex;
+                          ^~~~~~~~

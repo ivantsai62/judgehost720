@@ -1,0 +1,22 @@
+Compiling failed with exitcode 1, compiler output:
+happy.cpp:1:1: error: 'nclude' does not name a type
+ nclude <stdio.h>
+ ^~~~~~
+happy.cpp: In function 'int main()':
+happy.cpp:5:10: error: 'scanf' was not declared in this scope
+          scanf("%d", &testcase);
+          ^~~~~
+happy.cpp:29:30: error: 'printf' was not declared in this scope
+                              printf("Case #%d: %d is a Happy number.\n", i, input);
+                              ^~~~~~
+happy.cpp:29:30: note: 'printf' is defined in header '<cstdio>'; did you forget to '#include <cstdio>'?
+happy.cpp:3:1:
++#include <cstdio>
+ int main(void) {
+happy.cpp:29:30:
+                              printf("Case #%d: %d is a Happy number.\n", i, input);
+                              ^~~~~~
+happy.cpp:31:31: error: 'printf' was not declared in this scope
+                               printf("Case #%d: %d is an Unhappy number.\n", i, input);
+                               ^~~~~~
+happy.cpp:31:31: note: 'printf' is defined in header '<cstdio>'; did you forget to '#include <cstdio>'?

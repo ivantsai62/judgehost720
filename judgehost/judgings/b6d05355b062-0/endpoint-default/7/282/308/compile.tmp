@@ -1,0 +1,358 @@
+lamp.cpp:1:1: error: 'nclude' does not name a type
+ nclude<cstdio>
+ ^~~~~~
+In file included from /usr/include/c++/8/bits/move.h:55,
+                 from /usr/include/c++/8/bits/stl_pair.h:59,
+                 from /usr/include/c++/8/utility:70,
+                 from /usr/include/c++/8/algorithm:60,
+                 from lamp.cpp:2:
+/usr/include/c++/8/type_traits:350:31: error: 'std::size_t' has not been declared
+   template<typename _Tp, std::size_t _Size>
+                               ^~~~~~
+/usr/include/c++/8/type_traits:351:25: error: '_Size' was not declared in this scope
+     struct is_array<_Tp[_Size]>
+                         ^~~~~
+/usr/include/c++/8/type_traits:351:31: error: template argument 1 is invalid
+     struct is_array<_Tp[_Size]>
+                               ^
+/usr/include/c++/8/type_traits:549:42: error: 'nullptr_t' is not a member of 'std'
+     struct __is_null_pointer_helper<std::nullptr_t>
+                                          ^~~~~~~~~
+/usr/include/c++/8/type_traits:549:42: error: 'nullptr_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:549:51: error: template argument 1 is invalid
+     struct __is_null_pointer_helper<std::nullptr_t>
+                                                   ^
+/usr/include/c++/8/type_traits:1289:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t, alignof(_Tp)> { };
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1289:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1289:57: error: template argument 1 is invalid
+     : public integral_constant<std::size_t, alignof(_Tp)> { };
+                                                         ^
+/usr/include/c++/8/type_traits:1289:57: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1294:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t, 0> { };
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1294:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1294:46: error: template argument 1 is invalid
+     : public integral_constant<std::size_t, 0> { };
+                                              ^
+/usr/include/c++/8/type_traits:1294:46: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1296:31: error: 'std::size_t' has not been declared
+   template<typename _Tp, std::size_t _Size>
+                               ^~~~~~
+/usr/include/c++/8/type_traits:1297:21: error: '_Size' was not declared in this scope
+     struct rank<_Tp[_Size]>
+                     ^~~~~
+/usr/include/c++/8/type_traits:1297:27: error: template argument 1 is invalid
+     struct rank<_Tp[_Size]>
+                           ^
+/usr/include/c++/8/type_traits:1298:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1298:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1298:65: error: template argument 1 is invalid
+     : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
+                                                                 ^
+/usr/include/c++/8/type_traits:1298:65: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1302:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1302:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1302:65: error: template argument 1 is invalid
+     : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
+                                                                 ^
+/usr/include/c++/8/type_traits:1302:65: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1307:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t, 0> { };
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1307:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1307:46: error: template argument 1 is invalid
+     : public integral_constant<std::size_t, 0> { };
+                                              ^
+/usr/include/c++/8/type_traits:1307:46: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1309:47: error: 'std::size_t' has not been declared
+   template<typename _Tp, unsigned _Uint, std::size_t _Size>
+                                               ^~~~~~
+/usr/include/c++/8/type_traits:1310:23: error: '_Size' was not declared in this scope
+     struct extent<_Tp[_Size], _Uint>
+                       ^~~~~
+/usr/include/c++/8/type_traits:1310:36: error: template argument 1 is invalid
+     struct extent<_Tp[_Size], _Uint>
+                                    ^
+/usr/include/c++/8/type_traits:1311:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t,
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1311:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1312:24: error: '_Size' was not declared in this scope
+           _Uint == 0 ? _Size : extent<_Tp,
+                        ^~~~~
+/usr/include/c++/8/type_traits:1313:28: error: template argument 1 is invalid
+           _Uint - 1>::value>
+                            ^
+/usr/include/c++/8/type_traits:1313:28: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1318:37: error: 'size_t' is not a member of 'std'
+     : public integral_constant<std::size_t,
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1318:37: error: 'size_t' is not a member of 'std'
+/usr/include/c++/8/type_traits:1320:31: error: template argument 1 is invalid
+              _Uint - 1>::value>
+                               ^
+/usr/include/c++/8/type_traits:1320:31: note: invalid template non-type parameter
+/usr/include/c++/8/type_traits:1748:31: error: 'std::size_t' has not been declared
+   template<typename _Tp, std::size_t _Size>
+                               ^~~~~~
+/usr/include/c++/8/type_traits:1749:30: error: '_Size' was not declared in this scope
+     struct remove_extent<_Tp[_Size]>
+                              ^~~~~
+/usr/include/c++/8/type_traits:1749:36: error: template argument 1 is invalid
+     struct remove_extent<_Tp[_Size]>
+                                    ^
+/usr/include/c++/8/type_traits:1761:31: error: 'std::size_t' has not been declared
+   template<typename _Tp, std::size_t _Size>
+                               ^~~~~~
+/usr/include/c++/8/type_traits:1762:35: error: '_Size' was not declared in this scope
+     struct remove_all_extents<_Tp[_Size]>
+                                   ^~~~~
+/usr/include/c++/8/type_traits:1762:41: error: template argument 1 is invalid
+     struct remove_all_extents<_Tp[_Size]>
+                                         ^
+/usr/include/c++/8/type_traits:1820:17: error: 'std::size_t' has not been declared
+   template<std::size_t _Len>
+                 ^~~~~~
+/usr/include/c++/8/type_traits:1825:23: error: '_Len' was not declared in this scope
+  unsigned char __data[_Len];
+                       ^~~~
+/usr/include/c++/8/type_traits:1840:17: error: 'std::size_t' has not been declared
+   template<std::size_t _Len, std::size_t _Align =
+                 ^~~~~~
+/usr/include/c++/8/type_traits:1840:35: error: 'std::size_t' has not been declared
+   template<std::size_t _Len, std::size_t _Align =
+                                   ^~~~~~
+/usr/include/c++/8/type_traits:1841:48: error: '_Len' was not declared in this scope
+     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
+                                                ^~~~
+/usr/include/c++/8/type_traits:1841:52: error: template argument 1 is invalid
+     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
+                                                    ^
+/usr/include/c++/8/type_traits:1846:23: error: '_Len' was not declared in this scope
+  unsigned char __data[_Len];
+                       ^~~~
+/usr/include/c++/8/type_traits:1847:37: error: '_Align' was not declared in this scope
+  struct __attribute__((__aligned__((_Align)))) { } __align;
+                                     ^~~~~~
+/usr/include/c++/8/type_traits:1854:20: error: 'size_t' does not name a type
+       static const size_t _S_alignment = 0;
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1854:20: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:1:1:
++#include <cstddef>
+ // C++11 <type_traits> -*- C++ -*-
+/usr/include/c++/8/type_traits:1854:20:
+       static const size_t _S_alignment = 0;
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1855:20: error: 'size_t' does not name a type
+       static const size_t _S_size = 0;
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1855:20: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:1861:20: error: 'size_t' does not name a type
+       static const size_t _S_alignment =
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1861:20: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:1864:20: error: 'size_t' does not name a type
+       static const size_t _S_size =
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1864:20: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:1879:13: error: 'size_t' has not been declared
+   template <size_t _Len, typename... _Types>
+             ^~~~~~
+/usr/include/c++/8/type_traits:1886:20: error: 'size_t' does not name a type
+       static const size_t _S_len = _Len > __strictest::_S_size
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1886:20: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:1890:20: error: 'size_t' does not name a type
+       static const size_t alignment_value = __strictest::_S_alignment;
+                    ^~~~~~
+/usr/include/c++/8/type_traits:1890:20: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:1892:40: error: '_S_len' was not declared in this scope
+       typedef typename aligned_storage<_S_len, alignment_value>::type type;
+                                        ^~~~~~
+/usr/include/c++/8/type_traits:1892:48: error: 'alignment_value' was not declared in this scope
+       typedef typename aligned_storage<_S_len, alignment_value>::type type;
+                                                ^~~~~~~~~~~~~~~
+/usr/include/c++/8/type_traits:1892:48: note: suggested alternative: 'alignment_of'
+       typedef typename aligned_storage<_S_len, alignment_value>::type type;
+                                                ^~~~~~~~~~~~~~~
+                                                alignment_of
+/usr/include/c++/8/type_traits:1892:63: error: template argument 1 is invalid
+       typedef typename aligned_storage<_S_len, alignment_value>::type type;
+                                                               ^
+/usr/include/c++/8/type_traits:1892:63: error: template argument 2 is invalid
+/usr/include/c++/8/type_traits:1895:13: error: 'size_t' has not been declared
+   template <size_t _Len, typename... _Types>
+             ^~~~~~
+/usr/include/c++/8/type_traits:1896:11: error: 'size_t' does not name a type
+     const size_t aligned_union<_Len, _Types...>::alignment_value;
+           ^~~~~~
+/usr/include/c++/8/type_traits:1896:11: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/type_traits:2318:12: error: 'size_t' has not been declared
+   template<size_t _Len, size_t _Align =
+            ^~~~~~
+/usr/include/c++/8/type_traits:2318:25: error: 'size_t' has not been declared
+   template<size_t _Len, size_t _Align =
+                         ^~~~~~
+/usr/include/c++/8/type_traits:2319:49: error: '_Len' was not declared in this scope
+      __alignof__(typename __aligned_storage_msa<_Len>::__type)>
+                                                 ^~~~
+/usr/include/c++/8/type_traits:2319:53: error: template argument 1 is invalid
+      __alignof__(typename __aligned_storage_msa<_Len>::__type)>
+                                                     ^
+/usr/include/c++/8/type_traits:2320:56: error: '_Len' was not declared in this scope
+     using aligned_storage_t = typename aligned_storage<_Len, _Align>::type;
+                                                        ^~~~
+/usr/include/c++/8/type_traits:2320:62: error: '_Align' was not declared in this scope
+     using aligned_storage_t = typename aligned_storage<_Len, _Align>::type;
+                                                              ^~~~~~
+/usr/include/c++/8/type_traits:2320:68: error: template argument 1 is invalid
+     using aligned_storage_t = typename aligned_storage<_Len, _Align>::type;
+                                                                    ^
+/usr/include/c++/8/type_traits:2320:68: error: template argument 2 is invalid
+/usr/include/c++/8/type_traits:2322:13: error: 'size_t' has not been declared
+   template <size_t _Len, typename... _Types>
+             ^~~~~~
+/usr/include/c++/8/type_traits:2323:52: error: '_Len' was not declared in this scope
+     using aligned_union_t = typename aligned_union<_Len, _Types...>::type;
+                                                    ^~~~
+/usr/include/c++/8/type_traits:2323:67: error: template argument 1 is invalid
+     using aligned_union_t = typename aligned_union<_Len, _Types...>::type;
+                                                                   ^
+/usr/include/c++/8/type_traits:2441:26: error: 'size_t' has not been declared
+   template<typename _Tp, size_t _Nm>
+                          ^~~~~~
+/usr/include/c++/8/type_traits:2444:21: error: '_Nm' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                     ^~~
+/usr/include/c++/8/type_traits:2444:24: error: 'template<class _Tp, <declaration error> > typename std::enable_if<std::__is_swappable<_Tp>::value>::type std::swap' conflicts with a previous declaration
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                        ^
+/usr/include/c++/8/type_traits:2437:5: note: previous declaration 'typename std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> >::value>::type std::swap(_Tp&, _Tp&)'
+     swap(_Tp&, _Tp&)
+     ^~~~
+/usr/include/c++/8/type_traits:2444:16: error: '__a' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                ^~~
+/usr/include/c++/8/type_traits:2444:21: error: '_Nm' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                     ^~~
+/usr/include/c++/8/type_traits:2444:33: error: '__b' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                                 ^~~
+/usr/include/c++/8/type_traits:2444:38: error: '_Nm' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                                      ^~~
+/usr/include/c++/8/type_traits:2444:43: error: expected ';' before 'noexcept'
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                                           ^
+                                           ;
+     noexcept(__is_nothrow_swappable<_Tp>::value);
+     ~~~~~~~~                               
+In file included from /usr/include/c++/8/bits/stl_pair.h:59,
+                 from /usr/include/c++/8/utility:70,
+                 from /usr/include/c++/8/algorithm:60,
+                 from lamp.cpp:2:
+/usr/include/c++/8/bits/move.h:201:26: error: 'size_t' has not been declared
+   template<typename _Tp, size_t _Nm>
+                          ^~~~~~
+/usr/include/c++/8/bits/move.h:205:21: error: '_Nm' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                     ^~~
+/usr/include/c++/8/bits/move.h:205:24: error: 'template<class _Tp, <declaration error> > typename std::enable_if<std::__is_swappable<_Tp>::value>::type std::swap' conflicts with a previous declaration
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                        ^
+/usr/include/c++/8/bits/move.h:182:5: note: previous declaration 'typename std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> >::value>::type std::swap(_Tp&, _Tp&)'
+     swap(_Tp& __a, _Tp& __b)
+     ^~~~
+/usr/include/c++/8/bits/move.h:205:16: error: '__a' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                ^~~
+/usr/include/c++/8/bits/move.h:205:21: error: '_Nm' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                     ^~~
+/usr/include/c++/8/bits/move.h:205:33: error: '__b' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                                 ^~~
+/usr/include/c++/8/bits/move.h:205:38: error: '_Nm' was not declared in this scope
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                                      ^~~
+/usr/include/c++/8/bits/move.h:205:43: error: expected ';' before 'noexcept'
+     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+                                           ^
+                                           ;
+     noexcept(__is_nothrow_swappable<_Tp>::value)
+     ~~~~~~~~                               
+In file included from /usr/include/c++/8/utility:70,
+                 from /usr/include/c++/8/algorithm:60,
+                 from lamp.cpp:2:
+/usr/include/c++/8/bits/stl_pair.h:86:17: error: 'std::size_t' has not been declared
+   template<std::size_t...>
+                 ^~~~~~
+/usr/include/c++/8/bits/stl_pair.h:434:41: error: 'std::size_t' has not been declared
+       template<typename... _Args1, std::size_t... _Indexes1,
+                                         ^~~~~~
+/usr/include/c++/8/bits/stl_pair.h:435:41: error: 'std::size_t' has not been declared
+                typename... _Args2, std::size_t... _Indexes2>
+                                         ^~~~~~
+/usr/include/c++/8/bits/stl_pair.h:437:27: error: '_Indexes1' was not declared in this scope
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                           ^~~~~~~~~
+/usr/include/c++/8/bits/stl_pair.h:437:27: note: suggested alternative: '_Index_tuple'
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                           ^~~~~~~~~
+                           _Index_tuple
+/usr/include/c++/8/bits/stl_pair.h:437:36: error: expected parameter pack before '...'
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                                    ^~~
+/usr/include/c++/8/bits/stl_pair.h:437:39: error: template argument 1 is invalid
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                                       ^
+/usr/include/c++/8/bits/stl_pair.h:437:55: error: '_Indexes2' was not declared in this scope
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                                                       ^~~~~~~~~
+/usr/include/c++/8/bits/stl_pair.h:437:55: note: suggested alternative: '_Index_tuple'
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                                                       ^~~~~~~~~
+                                                       _Index_tuple
+/usr/include/c++/8/bits/stl_pair.h:437:64: error: expected parameter pack before '...'
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                                                                ^~~
+/usr/include/c++/8/bits/stl_pair.h:437:67: error: template argument 1 is invalid
+              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
+                                                                   ^
+In file included from /usr/include/c++/8/utility:76,
+                 from /usr/include/c++/8/algorithm:60,
+                 from lamp.cpp:2:
+/usr/include/c++/8/initializer_list:53:15: error: 'size_t' does not name a type
+       typedef size_t   size_type;
+               ^~~~~~
+/usr/include/c++/8/initializer_list:53:15: note: 'size_t' is defined in header '<cstddef>'; did you forget to '#include <cstddef>'?
+/usr/include/c++/8/initializer_list:1:1:
++#include <cstddef>
+ // std::initializer_list support -*- C++ -*-
+/usr/include/c++/8/initializer_list:53:15:
+       typedef size_t   size_type;
+               ^~~~~~
+/usr/include/c++/8/initializer_list:59:7: error: 'size_type' does not name a type; did you mean 'true_type'?
+       size_type   _M_len;
+       ^~~~~~~~~
+       true_type
+/usr/include/c++/8/initializer_list:62:54: error: 'size_type' has not been declared
+       constexpr initializer_list(const_iterator __a, size_type __l)
+                                                      ^~~~~~~~~
+/usr/include/c++/8/initializer_list:70:17: error: 'size_type' does not name a type; did you mean 'true_type'?
+       constexpr size_type
+                 ^~~~~~~~~
+                 true_type
+/usr/include/c++/8/initializer_list:47:11: fatal error: definition of 'class std::initializer_list<_E>' does not match '#include <initializer_list>'
+     class initializer_list
+           ^~~~~~~~~~~~~~~~
+compilation terminated.

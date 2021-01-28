@@ -1,0 +1,14 @@
+fre.cpp: In function 'int main()':
+fre.cpp:4:11: error: 'gets' was not declared in this scope
+     while(gets(str)) {
+           ^~~~
+fre.cpp:4:11: note: suggested alternative: 'fgets'
+     while(gets(str)) {
+           ^~~~
+           fgets
+fre.cpp:8:29: warning: array subscript has type 'char' [-Wchar-subscripts]
+                 ascii[str[i]]++;
+                             ^
+fre.cpp:10:29: warning: array subscript has type 'char' [-Wchar-subscripts]
+                 ascii[str[i]]++;
+                             ^

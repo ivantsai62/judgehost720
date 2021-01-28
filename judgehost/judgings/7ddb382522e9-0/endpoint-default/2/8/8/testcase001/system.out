@@ -1,0 +1,7 @@
+Wrong answer.
+runtime: 0.004s cpu, 0.018s wall
+memory used: 131072 bytes
+********** runguard stderr follows **********
+jury program exited successfully
+[Sep 01 14:37:33.805] ../dj-bin/runpipe[2837]: warning: command #2, pid 2840 has exited (with status 0)
+[Sep 01 14:37:33.805] ../dj-bin/runpipe[2837]: warning: command #1, pid 2839 has exited (with status 0)

@@ -1,0 +1,12 @@
+Compiling failed with exitcode 1, compiler output:
+3.cpp: In function 'int main()':
+3.cpp:23:8: error: 'gets' was not declared in this scope
+  while(gets(qu) != NULL) {
+        ^~~~
+3.cpp:23:8: note: suggested alternative: 'fgets'
+  while(gets(qu) != NULL) {
+        ^~~~
+        fgets
+3.cpp:28:16: warning: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+   for(i = 0; i < strlen(qu); i++)
+              ~~^~~~~~~~~~~~

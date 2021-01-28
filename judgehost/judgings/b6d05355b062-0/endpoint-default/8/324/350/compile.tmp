@@ -1,0 +1,10 @@
+2_1.cpp: In function 'int main()':
+2_1.cpp:17:21: warning: array subscript has type 'char' [-Wchar-subscripts]
+     hash[keyboard[i]] = keyboard[i-1];
+                     ^
+2_1.cpp:21:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+     for(int i = 0 ; i < s.length() ; i++){
+                     ~~^~~~~~~~~~~~
+2_1.cpp:22:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+       printf( "%c", hash[s[i]] );
+                              ^

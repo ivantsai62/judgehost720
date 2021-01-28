@@ -1,0 +1,1 @@
+testcase 1: invalid output command 'unknown command 'hello' after 0 queries'

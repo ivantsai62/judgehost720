@@ -1,0 +1,10 @@
+Compiling failed with exitcode 1, compiler output:
+t.cpp: In function 'int main()':
+t.cpp:4:2: error: 'cout' was not declared in this scope
+  cout << "hello"
+  ^~~~
+t.cpp:4:2: note: suggested alternative:
+In file included from t.cpp:1:
+/usr/include/c++/8/iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~

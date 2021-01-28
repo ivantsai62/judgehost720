@@ -1,0 +1,29 @@
+1.cpp:1:2: error: invalid preprocessing directive #includes; did you mean #include?
+ #includes <iostream>
+  ^~~~~~~~
+  include
+1.cpp: In function 'int main()':
+1.cpp:6:5: error: 'cin' was not declared in this scope
+     cin >> i;
+     ^~~
+1.cpp:6:5: note: 'std::cin' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+1.cpp:1:1:
++#include <iostream>
+ #includes <iostream>
+1.cpp:6:5:
+     cin >> i;
+     ^~~
+1.cpp:8:9: error: 'cout' was not declared in this scope
+         cout << "Hello world!" << endl;
+         ^~~~
+1.cpp:8:9: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+1.cpp:8:35: error: 'endl' was not declared in this scope
+         cout << "Hello world!" << endl;
+                                   ^~~~
+1.cpp:8:35: note: 'std::endl' is defined in header '<ostream>'; did you forget to '#include <ostream>'?
+1.cpp:1:1:
++#include <ostream>
+ #includes <iostream>
+1.cpp:8:35:
+         cout << "Hello world!" << endl;
+                                   ^~~~
