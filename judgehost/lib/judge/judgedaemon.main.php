@@ -399,7 +399,7 @@ EOT;
 
     return array($execrunpath, null);
 }
-
+//執行
 $options = getopt("dv:n:hV");
 // FIXME: getopt doesn't return FALSE on parse failure as documented!
 if ($options===false) {
@@ -594,7 +594,7 @@ while (true) {
     if (!is_null($judging)) {
         $row = dj_json_decode($judging);
     }
-   // logmsg(LOG_DEBUG, "hahahahah $row...");
+   // logmsg(LOG_DEBUG, "test $row...");
     // nothing returned -> no open submissions for us
     if (empty($row)) {
         if (! $endpoints[$endpointID]["waiting"]) {
@@ -913,14 +913,7 @@ function judge(array $row)
     $last_sent = now();
     $outstanding_data = 0;
     $update_every_X_seconds = dbconfig_get_rest('update_judging_seconds');
-    $task_result = array();
-    if(!empty($row['subtask']))
-    {
-        for( $i=0 ; $i < $row['subtask'] ; $i++ )
-        {
-        $task_result[$i] = 0;
-        }
-    }
+
     foreach ($row['testcases'] as $tc) {
         // Check whether we have received an exit signal(but not a graceful exit signal)
         if (function_exists('pcntl_signal_dispatch')) {
@@ -977,6 +970,7 @@ function judge(array $row)
         $tcfile = fetchTestcase($row, $workdirpath, $tc['rank']);
         if ($tcfile === NULL) {
             // error while fetching testcase
+            error("error while fetching testcase");
             return;
         }
 
@@ -1045,17 +1039,11 @@ function judge(array $row)
             disable('problem', 'probid', $row['probid'], "compare script '" . $row['compare'] . "' crashed", $row['judgingid'], (string)$row['cid']);
             return;
         }
-        //新增:
-        if(!empty($task_result))
-        {
-           if($result ==='wrong-answer')
-            {
-                $task_result[(int)$tc['task']] = 0;
-            }
-
-        }
+        
+        
+        /*-----CCU-----*/
+        //add "wrong-answer" let all testcase run
         $lastcase_correct = ($result === 'correct' || $result ==='wrong-answer');
-
         $new_judging_run = array(
             'testcaseid' => urlencode((string)$tc['testcaseid']),
             'runresult' => urlencode($result),
@@ -1068,6 +1056,7 @@ function judge(array $row)
             'output_diff'  => rest_encode_file($testcasedir . '/feedback/judgemessage.txt', $output_storage_limit)
         );
         logmsg(LOG_DEBUG, "Testcase_task $tc[task] done, result: " . $new_judging_run['task']);
+        /*-------CCU-------*/
         $unsent_judging_runs[] = $new_judging_run;
         $outstanding_data += strlen(var_export($new_judging_run, TRUE));
 
@@ -1129,10 +1118,11 @@ function fetchTestcase(array $row, $workdirpath, $rank): array
     foreach (array('input', 'output') as $inout) {
         $tcfile[$inout] = "$workdirpath/testcase/testcase.$row[probid].$rank." .
             $tc['md5sum_' . $inout] . "." . substr($inout, 0, -3);
-
         if (!file_exists($tcfile[$inout])) {
-            $url = sprintf('testcases/%s/file/%s', $tc['testcaseid'], $inout);
+            /*-----CCU-----*/
+            $url = sprintf('testcases/%s/file/%s/%s', $tc['testcaseid'], $inout, $row['submitid']);
             $content = request($url, 'GET', '', FALSE);
+            /*-----CCU-----*/
             if ($content === NULL) {
                 $error = 'Download of ' . $inout . ' failed for case ' . $tc['testcaseid'] . ', check your problem integrity.';
                 logmsg(LOG_ERR, $error);

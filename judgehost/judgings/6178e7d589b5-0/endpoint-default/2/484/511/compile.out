@@ -1,0 +1,14 @@
+Compiling failed with exitcode 1, compiler output:
+main02.cpp: In function 'int main()':
+main02.cpp:28:9: warning: unused variable 'v1' [-Wunused-variable]
+     int v1,v2,c;
+         ^~
+main02.cpp:28:12: warning: unused variable 'v2' [-Wunused-variable]
+     int v1,v2,c;
+            ^~
+main02.cpp:28:15: warning: unused variable 'c' [-Wunused-variable]
+     int v1,v2,c;
+               ^
+/usr/bin/ld: /tmp/ccVX9kaG.o: in function `main':
+main02.cpp:(.text.startup+0x0): multiple definition of `main'; /tmp/ccoHDiOV.o:main.cpp:(.text.startup+0x0): first defined here
+collect2: error: ld returned 1 exit status

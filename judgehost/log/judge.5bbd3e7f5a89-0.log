@@ -1,0 +1,17 @@
+[Mar 02 15:37:51.855] judgedaemon[44]: Judge started on 5bbd3e7f5a89-0 [DOMjudge/7.2.0]
+[Mar 02 15:37:51.858] judgedaemon[44]: Installing signal handlers
+[Mar 02 15:37:51.858] judgedaemon[44]: executing chroot script: 'chroot-startstop.sh check'
+[Mar 02 15:37:51.859] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:37:51.861] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:37:51.861] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 15:37:51.861] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:38:21.862] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:38:21.867] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:38:21.881] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 15:38:21.881] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:38:51.882] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:38:51.885] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:38:51.899] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 15:38:51.899] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:39:14.927] judgedaemon[44]: Signal 15 received
+[Mar 02 15:39:14.927] judgedaemon[44]: Received signal, exiting.

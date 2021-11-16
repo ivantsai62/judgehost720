@@ -1,0 +1,93 @@
+[Mar 02 16:26:48.924] judgedaemon[44]: Judge started on e2abaa0ffc93-0 [DOMjudge/7.2.0]
+[Mar 02 16:26:48.927] judgedaemon[44]: Installing signal handlers
+[Mar 02 16:26:48.927] judgedaemon[44]: executing chroot script: 'chroot-startstop.sh check'
+[Mar 02 16:26:48.928] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:26:48.930] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:26:49.952] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 16:26:49.952] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:27:19.953] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:27:19.956] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:27:19.957] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 16:27:19.957] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:27:49.958] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:27:49.959] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:27:50.976] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 16:27:50.976] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:28:20.977] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:28:20.983] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:28:20.996] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:28:20.997] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:28:50.998] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:28:50.999] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:28:51.013] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:28:51.013] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:29:21.014] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:29:21.018] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:29:21.031] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:29:21.031] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:29:51.032] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:29:51.034] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:29:51.048] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:29:51.048] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:30:21.049] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:30:21.051] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:30:21.065] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:30:21.065] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:30:51.065] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:30:51.067] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:30:51.080] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:30:51.080] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:31:21.081] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:31:21.083] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:31:21.101] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:31:21.101] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:31:51.102] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:31:51.104] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:31:51.134] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:31:51.134] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:32:21.135] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:32:21.140] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:32:21.158] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:32:21.158] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:32:51.159] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:32:51.161] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:32:52.192] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 16:32:52.192] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:33:22.193] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:33:22.199] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:33:22.213] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:33:22.213] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:33:52.214] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:33:52.216] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:33:53.252] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 16:33:53.252] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:34:23.253] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:34:23.255] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:34:23.269] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:34:23.269] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:34:53.270] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:34:53.272] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:34:53.285] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:34:53.285] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:35:23.286] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:35:23.291] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:35:23.304] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:35:23.304] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:35:53.305] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:35:53.308] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:35:53.321] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:35:53.321] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:36:23.322] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:36:23.326] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:36:23.340] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:36:23.340] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:36:53.341] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:36:53.346] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:36:53.364] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:36:53.364] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:37:23.365] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 16:37:23.367] judgedaemon[44]: API request POST judgehosts
+[Mar 02 16:37:23.380] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Could not resolve host: domserver
+[Mar 02 16:37:23.380] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 16:37:29.464] judgedaemon[44]: Signal 15 received
+[Mar 02 16:37:29.464] judgedaemon[44]: Received signal, exiting.

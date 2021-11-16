@@ -1,0 +1,4 @@
+main_2.cpp: In function 'int test()':
+main_2.cpp:5:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^

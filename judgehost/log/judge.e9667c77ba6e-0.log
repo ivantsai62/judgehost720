@@ -1,0 +1,35 @@
+[Mar 02 15:27:44.032] judgedaemon[44]: Judge started on e9667c77ba6e-0 [DOMjudge/7.2.0]
+[Mar 02 15:27:44.034] judgedaemon[44]: Installing signal handlers
+[Mar 02 15:27:44.035] judgedaemon[44]: executing chroot script: 'chroot-startstop.sh check'
+[Mar 02 15:27:44.036] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:27:44.038] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:27:44.038] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: Failed to connect to domserver port 80: Connection refused
+[Mar 02 15:27:44.038] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:28:14.039] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:28:14.042] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:28:14.380] judgedaemon[44]: Reconnected to endpoint default.
+[Mar 02 15:28:19.381] judgedaemon[44]: API request GET config
+[Mar 02 15:28:19.529] judgedaemon[44]: API request POST judgehosts/next-judging/e9667c77ba6e-0
+[Mar 02 15:28:19.603] judgedaemon[44]: No submissions in queue (for endpoint default), waiting...
+[Mar 02 15:28:24.671] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts/next-judging/e9667c77ba6e-0: http status code: 500, request size = 0, response: {"code":500,"message":"Internal Server Error"}
+[Mar 02 15:28:44.671] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:28:44.677] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:28:44.711] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: http status code: 500, request size = 23, response: {"code":500,"message":"Internal Server Error"}
+[Mar 02 15:28:44.711] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:29:14.712] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:29:14.713] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:29:14.728] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: http status code: 500, request size = 23, response: {"code":500,"message":"Internal Server Error"}
+[Mar 02 15:29:14.728] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:29:44.729] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:29:44.733] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:29:45.466] judgedaemon[44]: Reconnected to endpoint default.
+[Mar 02 15:29:50.467] judgedaemon[44]: API request GET config
+[Mar 02 15:29:50.559] judgedaemon[44]: API request POST judgehosts/next-judging/e9667c77ba6e-0
+[Mar 02 15:29:50.980] judgedaemon[44]: No submissions in queue (for endpoint default), waiting...
+[Mar 02 15:31:59.636] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts/next-judging/e9667c77ba6e-0: http status code: 500, request size = 0, response: {"code":500,"message":"Internal Server Error"}
+[Mar 02 15:31:59.636] judgedaemon[44]: Registering judgehost on endpoint default: http://domserver/api/v4
+[Mar 02 15:31:59.638] judgedaemon[44]: API request POST judgehosts
+[Mar 02 15:31:59.643] judgedaemon[44]: warning: Error while executing curl POST to url http://domserver/api/v4/judgehosts: http status code: 500, request size = 23, response: {"code":500,"message":"Internal Server Error"}
+[Mar 02 15:31:59.643] judgedaemon[44]: Registering judgehost on endpoint default failed.
+[Mar 02 15:32:10.343] judgedaemon[44]: Signal 15 received
+[Mar 02 15:32:10.343] judgedaemon[44]: Received signal, exiting.

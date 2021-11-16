@@ -1,0 +1,13 @@
+memory-bytes: 253952
+exitcode: 152
+signal: 14
+wall-time: 5.999
+user-time: 1.660
+sys-time: 4.330
+cpu-time: 5.996
+time-used: cpu-time
+time-result: hard-timelimit
+output-truncated: stdout
+stdin-bytes: 0
+stdout-bytes: 161299905
+stderr-bytes: 0

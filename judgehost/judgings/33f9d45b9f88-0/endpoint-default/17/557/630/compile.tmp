@@ -1,0 +1,9 @@
+main2.cpp: In function 'int main()':
+main2.cpp:5:5: error: 'cin' was not declared in this scope
+     cin>>a;
+     ^~~
+main2.cpp:5:5: note: suggested alternative:
+In file included from main2.cpp:1:
+/usr/include/c++/8/iostream:60:18: note:   'std::cin'
+   extern istream cin;  /// Linked to standard input
+                  ^~~

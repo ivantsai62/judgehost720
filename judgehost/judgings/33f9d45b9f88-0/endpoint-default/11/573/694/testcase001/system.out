@@ -1,0 +1,8 @@
+Timelimit exceeded.
+runtime: 5.996s cpu, 5.999s wall
+memory used: 253952 bytes
+********** runguard stderr follows **********
+/opt/domjudge/judgehost/bin/runguard: warning: timelimit exceeded (hard cpu time)
+/opt/domjudge/judgehost/bin/runguard: warning: timelimit exceeded (hard wall time): aborting command
+/opt/domjudge/judgehost/bin/runguard: warning: timelimit exceeded (soft wall time)
+/opt/domjudge/judgehost/bin/runguard: warning: timelimit exceeded (soft cpu time)
